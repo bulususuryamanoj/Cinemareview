@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <main class="card">
+    <h1>CIRE-Know the movie</h1>
+
+    <form id="reviewForm" action="review.html" method="GET" novalidate>
+      <div class="group">
+        <label for="movie">Movie name</label>
+        <input id="movie" name="movie" type="text" placeholder="e.g., Jailer" required />
+      </div>
+
+      <div class="group">
+        <label for="lang">Language</label>
+        <select id="lang" name="lang" required>
+          <option value="" selected disabled>Choose language</option>
+          <option>English</option>
+          <option>Hindi</option>
+          <option>Telugu</option>
+          <option>Tamil</option>
+          <option>Malayalam</option>
+          <option>Kannada</option>
+          <option>Marathi</option>
+          <option>Bengali</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="actions">
+        <button type="submit">Click here to get review →</button>
+      </div>
+    </form>
+  </main>
+
+ 
+</body>
+</html>
